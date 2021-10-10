@@ -28,4 +28,8 @@ data:
       password QNn7oWyqMK
       index_name fluentd-k8s
       type_name fluentd
+      <buffer>
+        # flush
+        flush_interval 10s
+      </buffer>
     </match>
